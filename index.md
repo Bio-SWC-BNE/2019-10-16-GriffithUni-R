@@ -451,7 +451,7 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
-
+ {% comment %}
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
 
@@ -510,8 +510,8 @@ and our administrator may contact you if we need any extra information.</h4>
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'editor' section. {% endcomment %}
-
+</div> End of 'editor' section. {% endcomment %}
+{% comment %}
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
@@ -596,7 +596,7 @@ and our administrator may contact you if we need any extra information.</h4>
       </ol>
     </div>
   </div>
-{% comment %}
+
   <p>
   Once you are done installing the software listed above,
   please go to <a href="setup/index.html">this page</a>,
@@ -656,7 +656,8 @@ and our administrator may contact you if we need any extra information.</h4>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
+{% comment %} 
+<div id="sql"> 
   <h3>SQLite</h3>
 
   <p>
@@ -700,9 +701,9 @@ and our administrator may contact you if we need any extra information.</h4>
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
-</div> {% comment %} End of 'SQLite' section. {% endcomment %}
+</div> End of 'SQLite' section. {% endcomment %}
 
-<div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
+{% comment %} <div id="openrefine"> Start of 'OpenRefine' section. 
   <h3>OpenRefine</h3>
   <p>
     For this lesson you will need <em>OpenRefine</em> and a
@@ -748,7 +749,7 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
-
+{% endcomment %}
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
