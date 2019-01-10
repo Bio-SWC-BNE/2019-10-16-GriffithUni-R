@@ -300,7 +300,7 @@ and our administrator may contact you if we need any extra information.</h4>
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
+{% comment %}
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
 
@@ -391,9 +391,9 @@ and our administrator may contact you if we need any extra information.</h4>
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'shell' section. {% endcomment %}
+</div>  End of 'shell' section. {% endcomment %}
 
-<div id="git"> {% comment %} Start of 'Git' section. {% endcomment %}
+ {% comment %} <div id="git">Start of 'Git' section. 
   <h3>Git</h3>
   <p>
     Git is a version control system that lets you track who made changes
@@ -450,9 +450,9 @@ and our administrator may contact you if we need any extra information.</h4>
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'Git' section. {% endcomment %}
+</div>  End of 'Git' section. {% endcomment %}
  {% comment %}
-<div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
+<div id="editor">Start of 'editor' section.
   <h3>Text Editor</h3>
 
   <p>
@@ -511,11 +511,12 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> End of 'editor' section. {% endcomment %}
+
 {% comment %}
-<div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
+<div id="python">  Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
-           Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
+           Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility 
   <h3>Python</h3>
 
   <p>
@@ -602,8 +603,8 @@ and our administrator may contact you if we need any extra information.</h4>
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
   </p>
-{% endcomment %}
-</div> {% comment %} End of 'Python' section. {% endcomment %}
+
+</div> {% endcomment %}{% comment %} End of 'Python' section. {% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
